@@ -1,4 +1,4 @@
-// ·½·¨Ò»
+ï»¿// æ–¹æ³•ä¸€
 class Solution {
     private List<List<Integer>> res = new LinkedList<>();
     private Deque<Integer> stack = new ArrayDeque<>();
@@ -17,7 +17,7 @@ class Solution {
         }
         for(int i=0; i<nums.length; ++i) {
             if(!used[i]) {
-                // ¶ÔÓÚnumsÖÐÖØ¸´µÄÔªËØ£¬Ö»ÓÐÇ°Ò»¸öÓÃ¹ýÊ±£¬ºóÒ»¸ö²ÅÄÜ²ÎÓëÅÅÁÐ
+                // å¯¹äºŽnumsä¸­é‡å¤çš„å…ƒç´ ï¼Œåªæœ‰å‰ä¸€ä¸ªç”¨è¿‡æ—¶ï¼ŒåŽä¸€ä¸ªæ‰èƒ½å‚ä¸ŽæŽ’åˆ—
                 if(i>=1 && nums[i-1]==nums[i] && used[i-1]==false)
                     continue;
                 stack.addLast(nums[i]);
@@ -30,7 +30,7 @@ class Solution {
     }
 }
 
-// ·½·¨¶þ
+// æ–¹æ³•äºŒ
 class Solution {
     private List<List<Integer>> res = new LinkedList<>();
 

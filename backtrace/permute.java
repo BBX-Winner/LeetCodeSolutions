@@ -1,4 +1,4 @@
-// ·½·¨Ò»
+ï»¿// æ–¹æ³•ä¸€
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
     LinkedList<Integer> list = new LinkedList<>();
@@ -27,7 +27,7 @@ class Solution {
 }
 
 
-// ·½·¨¶þ
+// æ–¹æ³•äºŒ
 class Solution {
     List<List<Integer>> res = new LinkedList<>();
     
